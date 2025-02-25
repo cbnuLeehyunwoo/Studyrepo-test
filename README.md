@@ -20,7 +20,7 @@ VS Code 터미널 상에서 아래 명령어 입력
 git checkout main
 git pull origin main
 ```
-새로운 브랜치 생성
+새로운 브랜치 생성(main 브랜치 위치에서 생성해주세요!)
 ![image](https://github.com/user-attachments/assets/b79e133d-7a51-41a8-987b-86561550c66d)
 ```bash
 git checkout -b 자신이름_week00
@@ -69,7 +69,7 @@ VS Code `소스 컨트롤` → `+` 버튼 클릭하여 변경 사항 추가
 커밋 메시지 양식: `백준 0000번 문제풀이`
 
 ![image](https://github.com/user-attachments/assets/4a629248-a485-4f7f-8758-d524bc8f032a)  
-5. 브랜치 확인 후 `Sync Changes` 버튼 클릭  
+5. 브랜치 확인 후 `Publish branch` or `Sync Changes` 버튼 클릭  
 
 ## 🖥️ 터미널에서 커밋 & 푸쉬
 
@@ -107,29 +107,30 @@ git push origin 이름_week00
 1. Github에서 `New pull request` 클릭 -> 메인 브랜치에서 자신의 브랜치로 PR 생성
 ![image](https://github.com/user-attachments/assets/0b44c3c0-0fc3-4bbb-ac0e-c19c41cb5c99)
 
-2. base 브랜치를 자신의 브랜치, compare 브랜치를 `main` 브랜치로 설정
+2. base 브랜치를 자신의 브랜치, compare 브랜치를 `main` 브랜치로 설정 -> `Create pull request`
+(만약 There isn't anything to compare이 뜬다면 5번부터 수행!)
 
 ![image](https://github.com/user-attachments/assets/547965f3-89ba-4c23-81f5-9813494113f9)
 
-3. title 입력 후(양식: 머지 전 충돌 테스트)  `Create pull request`
-
+4. title 입력 후(양식: 머지 전 충돌 테스트) Assignees로 본인 할당   
 ![image](https://github.com/user-attachments/assets/a4cdb86f-f5e9-4bcd-bb5b-2f3262363648)
 
-4. Assignees로 본인 할당 후 해당 PR은 본인이 수락!
+4. `Create pull request` 클릭 후 해당 PR은 본인이 수락 `Merge pull request` -> `Confirm merge`
 
 ![image](https://github.com/user-attachments/assets/b2f74c2a-866c-4a1b-a166-3cd4e5af0499)
 
 5. GitHub에서 자신의 브랜치에서 메인 브랜치로 PR 생성
 
-![image](https://github.com/user-attachments/assets/0b3f5727-14f5-4aad-80d5-3069fc8c5c31)
+6. base 브랜치를 `main`으로, compare 브랜치를 자신의 브랜치로 설정 -> `Create pull request`
 
-6. base 브랜치를 `main`으로, compare 브랜치를 자신의 브랜치로 설정
+![image](https://github.com/user-attachments/assets/db6bc126-71ef-481c-9dcf-724ec284677c)
 
 
-7. `Create pull request`
-8. `Asigeens`로 본인 제외한 다른 사람들 체크!
-9. PR 보내기 & 리뷰 요청
-10. 스터디원 검토 후 `main` 브랜치로 머지
+7. title 입력 후(양식: 이름 week00) `Asigeens`로 본인 제외한 다른 사람들 전부 체크!
+8. `Create pull request` 클릭
+10. 다른 스터디원이 검토 후 `main` 브랜치로 머지 `Merge pull request` -> `Confirm merge`
+11. 코드에서 좋았던 부분, 개선 가능할 부분에 대하여 코멘트 달아주기!
+![image](https://github.com/user-attachments/assets/b5d19f81-d7d6-447d-bbea-d740bf3bbbd8)
 
 📚 추가 참고 사항
 작업은 각각 자신의 폴더에서만 진행하기에 머지 시 conflict(충돌)이 발생할일은 거의 없지만 발생 시 스터디 진행자에게 연락해 주세요!
