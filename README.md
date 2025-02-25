@@ -103,16 +103,30 @@ git push origin 이름_week00
 ### 4️⃣ Pull Request(PR) 보내기
 ## 🔥 PR 머지 순서 (메인 -> 개인 브랜치 -> 메인)
 
-![image](https://github.com/user-attachments/assets/0b44c3c0-0fc3-4bbb-ac0e-c19c41cb5c99)
 
 1. Github에서 `New pull request` 클릭 -> 메인 브랜치에서 자신의 브랜치로 PR 생성
+![image](https://github.com/user-attachments/assets/0b44c3c0-0fc3-4bbb-ac0e-c19c41cb5c99)
+
 2. base 브랜치를 자신의 브랜치, compare 브랜치를 `main` 브랜치로 설정
-3. 특이사항 입력 후 `Create pull request`
-4. 해당 PR은 본인이 수락!
+
+![image](https://github.com/user-attachments/assets/547965f3-89ba-4c23-81f5-9813494113f9)
+
+3. title 입력 후(양식: 머지 전 충돌 테스트)  `Create pull request`
+
+![image](https://github.com/user-attachments/assets/a4cdb86f-f5e9-4bcd-bb5b-2f3262363648)
+
+4. Assignees로 본인 할당 후 해당 PR은 본인이 수락!
+
+![image](https://github.com/user-attachments/assets/b2f74c2a-866c-4a1b-a166-3cd4e5af0499)
 
 5. GitHub에서 자신의 브랜치에서 메인 브랜치로 PR 생성
+
+![image](https://github.com/user-attachments/assets/0b3f5727-14f5-4aad-80d5-3069fc8c5c31)
+
 6. base 브랜치를 `main`으로, compare 브랜치를 자신의 브랜치로 설정
-7. 특이사항 입력 후 `Create pull request`
+
+
+7. `Create pull request`
 8. `Asigeens`로 본인 제외한 다른 사람들 체크!
 9. PR 보내기 & 리뷰 요청
 10. 스터디원 검토 후 `main` 브랜치로 머지
